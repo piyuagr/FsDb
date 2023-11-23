@@ -1,0 +1,13 @@
+apiVersion: fsdb.database.domain/v1
+kind: Fsdbpv
+metadata:
+  labels:
+    app.kubernetes.io/name: fsdbpv
+    app.kubernetes.io/instance: fsdbpv-sample
+    app.kubernetes.io/part-of: fsdb
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: fsdb
+  name: fsdbpv-sample
+spec:
+  # TODO(user): Add fields here
+  

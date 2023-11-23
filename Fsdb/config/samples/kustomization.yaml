@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- fsdb_v1_fsdbpv.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
